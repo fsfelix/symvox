@@ -1,0 +1,7 @@
+= simple_form_for(@musician, html: {class: 'form-horizontal'}) do |f|
+    = f.input :name, label: "Nome"
+    = f.input :description, label: "Descrição"
+    = f.input :instrument, label: "Instrumento"
+    = f.input :email, label: "Email"
+    %br/
+    = f.button :submit
