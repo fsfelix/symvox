@@ -3,5 +3,5 @@ When(/^I visit my homepage$/) do
 end
 
 Then(/^I should see a list of instruments$/) do
-  expect(page).to have_content("hi")
+  expect(page).to have_content("Todos instrumentos")
 end
