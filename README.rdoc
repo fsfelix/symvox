@@ -1,13 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.3.0
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* Gem dependencies: 
+gem 'simple_form', '~> 3.3', '>= 3.3.1'
+gem 'haml', '~> 4.0', '>= 4.0.7'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 * Configuration
 
