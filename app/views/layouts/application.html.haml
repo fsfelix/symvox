@@ -7,6 +7,14 @@
   = csrf_meta_tags
   
 %body
-  - Category.all.each do |category|
-    = link_to category.name, musicians_path(category: category.name)
-  = yield
+  %nav.navbar.navbar-default
+    .container
+      .navbar-brand Instrumentos
+      %ul.nav.navbar-nav
+        %li= link_to "Todos instrumentos", root_path
+        - Category.all.each do |category|
+          %li= link_to category.name, musicians_path(category: category.name)
+      = link_to "Novo músico", new_musician_path, class: "navbar-text navbar-right navbar-link"
+  .container
+    .col-md-6.col-md-offset-3
+      = yield

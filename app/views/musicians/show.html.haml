@@ -1,7 +1,8 @@
 %h1= @musician.name
 %p= @musician.description
 %p= @musician.instrument
+%p= @musician.email
 
-= link_to "Home", root_path
-= link_to "Editar", edit_musician_path(@musician)
-= link_to "Deletar", musician_path(@musician), method: :delete, data: { confirm: "Você tem certeza?"} 
+= link_to "Voltar", root_path, class: "btn btn-sm btn-default"
+= link_to "Editar", edit_musician_path(@musician), class: "btn btn-sm btn-default"
+= link_to "Deletar", musician_path(@musician), method: :delete, data: { confirm: "Você tem certeza?"}, class: "btn btn-sm btn-default"

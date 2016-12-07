@@ -1,8 +1,8 @@
 = simple_form_for(@musician, html: {class: 'form-horizontal'}) do |f|
-    = f.collection_select :category_id, Category.all, :id, :name, {promt: "Escolha um instrumento."}
-    = f.input :name, label: "Nome"
-    = f.input :description, label: "Descrição"
-    = f.input :instrument, label: "Instrumento"
-    = f.input :email, label: "Email"
+    = f.collection_select :category_id, Category.all, :id, :name, {promt: "Escolha um instrumento."}, input_html: {class: "dropdown-toggle"}
+    = f.input :name, label: "Nome", input_html: {class: "form-control"}
+    = f.input :description, label: "Descrição", input_html: {class: "form-control"}
+    = f.input :instrument, label: "Instrumento", input_html: {class: "form-control"}
+    = f.input :email, label: "Email", input_html: {class: "form-control"}
     %br/
     = f.button :submit
