@@ -1,4 +1,5 @@
 = simple_form_for(@musician, html: {class: 'form-horizontal'}) do |f|
+    = f.collection_select :category_id, Category.all, :id, :name, {promt: "Escolha um instrumento."}
     = f.input :name, label: "Nome"
     = f.input :description, label: "Descrição"
     = f.input :instrument, label: "Instrumento"

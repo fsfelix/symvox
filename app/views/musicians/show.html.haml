@@ -3,3 +3,5 @@
 %p= @musician.instrument
 
 = link_to "Home", root_path
+= link_to "Editar", edit_musician_path(@musician)
+= link_to "Deletar", musician_path(@musician), method: :delete, data: { confirm: "Você tem certeza?"} 

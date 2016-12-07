@@ -1,7 +1,7 @@
 hi
 
 - @musicians.each do |musician|
-    %h2= musician.name
+    %h2= link_to musician.name, musician
     %p= musician.description
     %p= musician.instrument
     
