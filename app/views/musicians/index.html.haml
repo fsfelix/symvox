@@ -1,4 +1,9 @@
+hi
+
 - @musicians.each do |musician|
     %h2= musician.name
+    %p= musician.description
     %p= musician.instrument
+    
+= link_to "Novo Músico", new_musician_path
     
