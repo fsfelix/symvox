@@ -8,5 +8,10 @@
 
 > gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
+Para instalar as dependências basta rodar: bundle install.
+
+## Como rodar o app:
+> rails s
+
 ## Como rodar os testes:
 > rake cucumber
