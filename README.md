@@ -1,4 +1,6 @@
-
+## Feito por:
+> Felipe de Oliveira Campos Moreira
+> Felipe Silva Felix 
 ## Ruby version: 2.3.0
 
 ## Gem dependencies: 
@@ -15,3 +17,6 @@ Para instalar as dependências basta rodar: bundle install.
 
 ## Como rodar os testes:
 > rake cucumber
+
+## Aonde se encontram os testes:
+> symvox/features
