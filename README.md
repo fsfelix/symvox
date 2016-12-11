@@ -1,6 +1,6 @@
 ## Feito por:
-> Felipe de Oliveira Campos Moreira
-> Felipe Silva Felix 
+> Felipe de Oliveira Campos Moreira  8516347
+> Felipe Silva Felix                 8941092
 ## Ruby version: 2.3.0
 
 ## Gem dependencies: 
